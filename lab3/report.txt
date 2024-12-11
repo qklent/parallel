@@ -1,0 +1,29 @@
+N = 1000:
+  Sequential time: 0.01 ms
+  Parallel time:   16.08 ms
+  Speedup:         0.00x
+
+N = 10000:
+  Sequential time: 0.04 ms
+  Parallel time:   8.43 ms
+  Speedup:         0.00x
+
+N = 100000:
+  Sequential time: 0.41 ms
+  Parallel time:   3.63 ms
+  Speedup:         0.11x
+
+N = 1000000:
+  Sequential time: 4.19 ms
+  Parallel time:   1.29 ms
+  Speedup:         3.24x
+
+N = 10000000:
+  Sequential time: 28.41 ms
+  Parallel time:   9.27 ms
+  Speedup:         3.06x
+
+N = 100000000:
+  Sequential time: 279.97 ms
+  Parallel time:   53.06 ms
+  Speedup:         5.28x

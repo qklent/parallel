@@ -1,0 +1,271 @@
+lab3:
+N = 1000:
+  Sequential time: 0.00 ms
+  Parallel time:   10.62 ms
+  Speedup:         0.00x
+
+N = 10000:
+  Sequential time: 0.03 ms
+  Parallel time:   7.11 ms
+  Speedup:         0.00x
+
+N = 100000:
+  Sequential time: 0.29 ms
+  Parallel time:   5.49 ms
+  Speedup:         0.05x
+
+N = 1000000:
+  Sequential time: 3.38 ms
+  Parallel time:   4.01 ms
+  Speedup:         0.84x
+
+N = 10000000:
+  Sequential time: 30.46 ms
+  Parallel time:   8.14 ms
+  Speedup:         3.74x
+
+N = 100000000:
+  Sequential time: 306.69 ms
+  Parallel time:   64.16 ms
+  Speedup:         4.78x
+
+
+lab4:
+N = 1000:
+  Sequential time: 0.00 ms
+  Parallel time (reduction): 14.53 ms
+  Parallel time (atomic):    8.00 ms
+  Parallel time (critical):  16.41 ms
+  Speedup (reduction): 0.00x
+  Speedup (atomic):    0.00x
+  Speedup (critical):  0.00x
+
+N = 10000:
+  Sequential time: 0.03 ms
+  Parallel time (reduction): 8.18 ms
+  Parallel time (atomic):    16.28 ms
+  Parallel time (critical):  8.85 ms
+  Speedup (reduction): 0.00x
+  Speedup (atomic):    0.00x
+  Speedup (critical):  0.00x
+
+N = 100000:
+  Sequential time: 0.29 ms
+  Parallel time (reduction): 4.67 ms
+  Parallel time (atomic):    11.90 ms
+  Parallel time (critical):  12.10 ms
+  Speedup (reduction): 0.06x
+  Speedup (atomic):    0.02x
+  Speedup (critical):  0.02x
+
+N = 1000000:
+  Sequential time: 3.12 ms
+  Parallel time (reduction): 4.39 ms
+  Parallel time (atomic):    15.47 ms
+  Parallel time (critical):  11.33 ms
+  Speedup (reduction): 0.71x
+  Speedup (atomic):    0.20x
+  Speedup (critical):  0.28x
+
+N = 10000000:
+  Sequential time: 28.99 ms
+  Parallel time (reduction): 15.48 ms
+  Parallel time (atomic):    14.16 ms
+  Parallel time (critical):  14.84 ms
+  Speedup (reduction): 1.87x
+  Speedup (atomic):    2.05x
+  Speedup (critical):  1.95x
+
+N = 100000000:
+  Sequential time: 290.56 ms
+  Parallel time (reduction): 86.51 ms
+  Parallel time (atomic):    83.52 ms
+  Parallel time (critical):  63.01 ms
+  Speedup (reduction): 3.36x
+  Speedup (atomic):    3.48x
+  Speedup (critical):  4.61x
+
+N = 200000000:
+  Sequential time: 582.65 ms
+  Parallel time (reduction): 174.89 ms
+  Parallel time (atomic):    152.00 ms
+  Parallel time (critical):  141.57 ms
+  Speedup (reduction): 3.33x
+  Speedup (atomic):    3.83x
+  Speedup (critical):  4.12x
+
+N = 500000000:
+  Sequential time: 1552.13 ms
+  Parallel time (reduction): 424.71 ms
+  Parallel time (atomic):    349.49 ms
+  Parallel time (critical):  302.03 ms
+  Speedup (reduction): 3.65x
+  Speedup (atomic):    4.44x
+  Speedup (critical):  5.14x
+
+
+
+lab3_sem:
+N = 1000:
+  Sequential time: 0.00 ms
+  Parallel time:   14.54 ms
+  Speedup:         0.00x
+
+N = 10000:
+  Sequential time: 0.03 ms
+  Parallel time:   10.90 ms
+  Speedup:         0.00x
+
+N = 100000:
+  Sequential time: 0.30 ms
+  Parallel time:   6.55 ms
+  Speedup:         0.05x
+
+N = 1000000:
+  Sequential time: 2.99 ms
+  Parallel time:   8.00 ms
+  Speedup:         0.37x
+
+N = 10000000:
+  Sequential time: 29.45 ms
+  Parallel time:   18.30 ms
+  Speedup:         1.61x
+
+N = 100000000:
+  Sequential time: 312.89 ms
+  Parallel time:   63.80 ms
+  Speedup:         4.90x
+
+
+lab4_sem
+
+N = 1000:
+  Sequential time: 0.00 ms
+  Parallel time (semaphore): 13.99 ms
+  Speedup (semaphore): 0.00x
+
+N = 10000:
+  Sequential time: 0.03 ms
+  Parallel time (semaphore): 13.71 ms
+  Speedup (semaphore): 0.00x
+
+N = 100000:
+  Sequential time: 0.30 ms
+  Parallel time (semaphore): 6.82 ms
+  Speedup (semaphore): 0.04x
+
+N = 1000000:
+  Sequential time: 3.06 ms
+  Parallel time (semaphore): 12.51 ms
+  Speedup (semaphore): 0.24x
+
+N = 10000000:
+  Sequential time: 30.05 ms
+  Parallel time (semaphore): 11.36 ms
+  Speedup (semaphore): 2.64x
+
+N = 100000000:
+  Sequential time: 310.94 ms
+  Parallel time (semaphore): 71.71 ms
+  Speedup (semaphore): 4.34x
+
+N = 200000000:
+  Sequential time: 618.35 ms
+  Parallel time (semaphore): 146.31 ms
+  Speedup (semaphore): 4.23x
+
+N = 500000000:
+  Sequential time: 1580.59 ms
+  Parallel time (semaphore): 290.94 ms
+  Speedup (semaphore): 5.43x
+
+
+lab3_sync
+N = 1000:
+  Sequential time: 0.00 ms
+  Parallel time:   17.78 ms
+  Speedup:         0.00x
+
+N = 10000:
+  Sequential time: 0.03 ms
+  Parallel time:   15.58 ms
+  Speedup:         0.00x
+
+N = 100000:
+  Sequential time: 0.29 ms
+  Parallel time:   13.37 ms
+  Speedup:         0.02x
+
+N = 1000000:
+  Sequential time: 3.19 ms
+  Parallel time:   11.42 ms
+  Speedup:         0.28x
+
+N = 10000000:
+  Sequential time: 30.19 ms
+  Parallel time:   17.71 ms
+  Speedup:         1.70x
+
+N = 100000000:
+  Sequential time: 310.14 ms
+  Parallel time:   66.21 ms
+  Speedup:         4.68x
+
+
+lab4_sync:
+
+N = 1000:
+  Sequential time: 0.00 ms
+  Parallel time (barrier): 12.04 ms
+  Parallel time (barrier chunks): 12.93 ms
+  Speedup (barrier): 0.00x
+  Speedup (barrier chunks): 0.00x
+
+N = 10000:
+  Sequential time: 0.03 ms
+  Parallel time (barrier): 12.79 ms
+  Parallel time (barrier chunks): 12.00 ms
+  Speedup (barrier): 0.00x
+  Speedup (barrier chunks): 0.00x
+
+N = 100000:
+  Sequential time: 0.30 ms
+  Parallel time (barrier): 10.47 ms
+  Parallel time (barrier chunks): 11.00 ms
+  Speedup (barrier): 0.03x
+  Speedup (barrier chunks): 0.03x
+
+N = 1000000:
+  Sequential time: 3.14 ms
+  Parallel time (barrier): 7.85 ms
+  Parallel time (barrier chunks): 13.00 ms
+  Speedup (barrier): 0.40x
+  Speedup (barrier chunks): 0.24x
+
+N = 10000000:
+  Sequential time: 34.36 ms
+  Parallel time (barrier): 13.56 ms
+  Parallel time (barrier chunks): 25.01 ms
+  Speedup (barrier): 2.53x
+  Speedup (barrier chunks): 1.37x
+
+N = 100000000:
+  Sequential time: 291.52 ms
+  Parallel time (barrier): 63.15 ms
+  Parallel time (barrier chunks): 76.00 ms
+  Speedup (barrier): 4.62x
+  Speedup (barrier chunks): 3.84x
+
+N = 200000000:
+  Sequential time: 616.85 ms
+  Parallel time (barrier): 126.86 ms
+  Parallel time (barrier chunks): 154.99 ms
+  Speedup (barrier): 4.86x
+  Speedup (barrier chunks): 3.98x
+
+N = 500000000:
+  Sequential time: 1569.22 ms
+  Parallel time (barrier): 316.69 ms
+  Parallel time (barrier chunks): 400.06 ms
+  Speedup (barrier): 4.96x
+  Speedup (barrier chunks): 3.92x

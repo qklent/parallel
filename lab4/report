@@ -1,0 +1,71 @@
+N = 1000:
+  Sequential time: 0.00 ms
+  Parallel time (reduction): 0.40 ms
+  Parallel time (atomic):    0.01 ms
+  Parallel time (critical):  0.01 ms
+  Speedup (reduction): 0.01x
+  Speedup (atomic):    0.72x
+  Speedup (critical):  0.70x
+
+N = 10000:
+  Sequential time: 0.04 ms
+  Parallel time (reduction): 0.01 ms
+  Parallel time (atomic):    0.01 ms
+  Parallel time (critical):  0.01 ms
+  Speedup (reduction): 3.53x
+  Speedup (atomic):    2.98x
+  Speedup (critical):  2.78x
+
+N = 100000:
+  Sequential time: 0.42 ms
+  Parallel time (reduction): 0.20 ms
+  Parallel time (atomic):    0.10 ms
+  Parallel time (critical):  0.26 ms
+  Speedup (reduction): 2.11x
+  Speedup (atomic):    4.16x
+  Speedup (critical):  1.63x
+
+N = 1000000:
+  Sequential time: 4.17 ms
+  Parallel time (reduction): 4.59 ms
+  Parallel time (atomic):    12.86 ms
+  Parallel time (critical):  13.50 ms
+  Speedup (reduction): 0.91x
+  Speedup (atomic):    0.32x
+  Speedup (critical):  0.31x
+
+N = 10000000:
+  Sequential time: 39.37 ms
+  Parallel time (reduction): 6.71 ms
+  Parallel time (atomic):    5.75 ms
+  Parallel time (critical):  5.33 ms
+  Speedup (reduction): 5.87x
+  Speedup (atomic):    6.84x
+  Speedup (critical):  7.39x
+
+N = 100000000:
+  Sequential time: 280.36 ms
+  Parallel time (reduction): 58.47 ms
+  Parallel time (atomic):    67.66 ms
+  Parallel time (critical):  61.59 ms
+  Speedup (reduction): 4.79x
+  Speedup (atomic):    4.14x
+  Speedup (critical):  4.55x
+
+N = 200000000:
+  Sequential time: 550.05 ms
+  Parallel time (reduction): 104.49 ms
+  Parallel time (atomic):    101.71 ms
+  Parallel time (critical):  102.67 ms
+  Speedup (reduction): 5.26x
+  Speedup (atomic):    5.41x
+  Speedup (critical):  5.36x
+
+N = 500000000:
+  Sequential time: 1402.53 ms
+  Parallel time (reduction): 260.67 ms
+  Parallel time (atomic):    287.39 ms
+  Parallel time (critical):  258.38 ms
+  Speedup (reduction): 5.38x
+  Speedup (atomic):    4.88x
+  Speedup (critical):  5.43x

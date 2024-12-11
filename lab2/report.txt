@@ -1,0 +1,8 @@
+NMAX   TIME
+10      0.00
+11      0.01
+100     0.01
+1000    0.03
+2000    segfault :)
+5000    segfault :)
+10000   segfault :)

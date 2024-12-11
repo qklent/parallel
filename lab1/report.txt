@@ -1,0 +1,58 @@
+ex1:
+    чтобы узнать кол-во потоков:
+    ❯ /usr/bin/time -v ./ex1  
+    дает такой выход:
+        Command being timed: "./ex1"
+        User time (seconds): 0.50
+        System time (seconds): 0.01
+        Percent of CPU this job got: 936%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 2176
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 0
+        Minor (reclaiming a frame) page faults: 208
+        Voluntary context switches: 23
+        Involuntary context switches: 208
+        Swaps: 0
+        File system inputs: 0
+        File system outputs: 0
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
+    можежт понять по Percent of CPU this job got: 936% что было 10 потоков, но вроде это не супер точное значение.
+    в htop показывает 10 процессов
+
+    Время работы:
+    M = 10000
+    N = 100
+    time = 0.5s
+
+    M = 1000
+    N = 1000
+    time = 2.45s
+
+    M = 2000
+    N = 2000
+    time = 20.26s
+
+    мб надо было для malloc замерить отдельно сколько время занимает само выделение памяти, а то не особо честно получилось
+
+ex2:
+    Время работы:
+    M = 10000
+    N = 100
+    time = 2.17s
+
+    M = 1000
+    N = 1000
+    time = 19.37s
+
+    M = 2000
+    N = 2000
+    time = 230.26s
